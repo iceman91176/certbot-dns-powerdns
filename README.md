@@ -82,6 +82,18 @@ Releases are published automatically when a tag is pushed to GitHub.
 
 ```
 
+Docker
+------
+
+Build a docker-image based on the official certbot-image
+
+```bash
+
+python3 -m build
+docker build . -t certbot/certbot-powerdns
+
+```
+
 Development
 -----------
 
